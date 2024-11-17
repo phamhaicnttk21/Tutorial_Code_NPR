@@ -1,4 +1,4 @@
-package Tut05;
+package Tut05_TCPSocket;
 
 import java.io.*;
 import java.net.ServerSocket;

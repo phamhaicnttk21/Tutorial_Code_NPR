@@ -4,11 +4,10 @@ import java.io.*;
 import java.net.Socket;
 
 /**
- * @author haipham
+ * @author Haipham
  * 17/11/2024
  */
-
-public class Client1 {
+public class ClientWithThreads {
     public static void main(String[] args) throws IOException {
         try (Socket clientSocket = new Socket("localhost", 8888);
              DataOutputStream sentNumber = new DataOutputStream(clientSocket.getOutputStream());

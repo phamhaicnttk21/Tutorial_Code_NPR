@@ -1,4 +1,4 @@
-package Tut05;
+package Tut06_SocketAndThread;
 
 import java.io.*;
 import java.net.ServerSocket;
